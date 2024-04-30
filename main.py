@@ -63,7 +63,7 @@ def main():
 
             with col1:
                 countries = ['Kenya', 'USA', 'UK', 'Italy', 'South Africa']
-                country = st.radio("Which country are you visiting?", options=countries, key="country", horizontal=True)
+                country = st.radio("Which country are you visiting from?", options=countries, key="country", horizontal=True)
 
                 age_options = ['Youth (Below 18)', 'Adult (18-64)', 'Senior (65+)']
                 age_group = st.radio("Select your age group", options=age_options, key="age_group", horizontal=True)
