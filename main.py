@@ -52,7 +52,7 @@ def main():
         with st.container():
             col1, col2 = st.columns([1, 3])
             with col1:
-                st.image("https://i.pinimg.com/736x/39/f3/de/39f3de81b2bcde125d8c90f95676a814.jpg", width=150)
+                st.image("https://example.com/logo.png", width=150)
             with col2:
                 st.title("Travel Cost Calculator")
                 st.write("Welcome! Let's estimate the cost of your upcoming adventure.")
