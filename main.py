@@ -41,7 +41,7 @@ def main():
             col1, col2 = st.columns([1, 3])
             with col1:
                 # st.image("https://example.com/logo.png", width=150)
-                st.image("tourist.jpg", width=150)
+                st.image("https://github.com/snvice/poa/blob/main/tourist.jpg", width=150)
             with col2:
                 st.title("Travel Cost Calculator")
                 st.write("Welcome! Let's estimate the cost of your upcoming adventure.")
