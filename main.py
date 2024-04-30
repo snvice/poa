@@ -93,7 +93,7 @@ def main():
 
     elif choice == "About":
         st.header("About")
-        st.write("This is a travel cost calculator app built with Streamlit. It helps you estimate the cost of your upcoming trip based on various factors such as age group, number of people, and duration of stay.")
+        st.write("This is a travel cost calculator app built with Streamlit. It uses a machine learning model to estimate the cost of your upcoming trip based on various factors such as age group, number of people, and duration of stay.")
         st.write("To use the calculator, simply navigate to the 'Home' page and provide the required information. The app will then calculate and display the estimated cost of your trip.")
 
 if __name__ == "__main__":
